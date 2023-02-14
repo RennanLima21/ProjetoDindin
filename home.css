@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; /* deixar o conteudo da pagina contido*/
+  font-family: "Ubuntu", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+}
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.header {
+  display: flex; /*pai de todos blocos*/
+  justify-content: space-between; /* adiciona espaço entre os elementos*/
+  align-items: center; /*alinhar os itens no centro*/
+  background-color: #2e948a;
+  padding-left: 82px; /*espaço das bordas do item*/
+  padding-right: 103px; /*espaço das bordas do item*/
+  height: 117px;/*altura do cabeçalho*/
+}
+
+.links {
+  display: flex;
+  width: 309px; /*comprimento do componente*/
+  gap: 40px; /*vheader ão entre os links*/
+}
+
+.links a {
+  /*fonte definida pelo UX*/
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase; /*estilo MIAUSCULO... lowercase  MINUSCULO */
+  color: #fdfdfd;
+}
+
+.container-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 78px;
+}
+/* ESSE È DO COMENTARIO DO POVO Q N FIZ AINDA 
+.content-about {
+  display: flex;
+  flex-direction: row;
+}
+
+.content-left {
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+}
+                                      ESSE È DO COMENTARIO DO POVO Q N FIZ AINDA
+.content-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.text-main {
+  width: 363px;
+  height: 70px;
+  line-height: 24.55px;
+}
+
+.text-name {
+  margin-top: 10px;
+  width: 76px;
+  height: 23px;
+}
+*/
+.footer {
+  display: flex; /*pai de todos blocos*/
+  justify-content: space-between; /* adiciona espaço entre os elementos*/
+  align-items: center; /*alinhar os itens no centro*/
+  background-color: #2e948a;
+  padding-left: 128px; /*espaço das bordas do item*/
+  padding-right: 137px; /*espaço das bordas do item*/
+  height: 207px; /*altura do cabeçalho*/
+}
+
+.links-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.links-footer a {
+  font-size: 20px;
+  color: #ffffff;
+  text-transform: lowercase;
+}
+
+.buttons-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.buttons-footer button {
+  color: #ffffff;
+  border: 2px solid #fff;
+  border-radius: 62px;
+  width: 289px;
+  height: 51px;
+}
