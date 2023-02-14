@@ -33,12 +33,33 @@
 
 .class-box {
     display: flex;
-    margin-top: 75px;
-    margin-bottom: 75px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.class-text {
+    width: 500px;
+    margin-left: 60px;
+}
+
+.class-text>h1 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+}
+
+.class-text>p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
 }
 
 .line {
     width: 80%;
-    height: 2px;
+    height: 3px;
+    margin: 0 auto;
     background-color: #C4C4C4;
 }
