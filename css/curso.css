@@ -1,0 +1,28 @@
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-text {
+    width: 470px;
+    height: 340px;
+}
+
+.banner-text>h1 {
+    color: #FF4081;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 63px;
+    margin-bottom: 20px;
+}
+
+.banner-text>p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.banner>img {
+    margin: 5%;
+}
