@@ -48,12 +48,14 @@ button {
   color: #fdfdfd;
 }
 
-.container-about {
+/* .container-about {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   gap: 78px;
-}
+} */
+
+
 /* ESSE È DO COMENTARIO DO POVO Q N FIZ AINDA 
 .content-about {
   display: flex;
