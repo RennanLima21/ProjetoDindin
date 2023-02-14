@@ -26,3 +26,19 @@
 .banner>img {
     margin: 5%;
 }
+
+.container-classes {
+    background-color: #F7F7F7;
+}
+
+.class-box {
+    display: flex;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.line {
+    width: 80%;
+    height: 2px;
+    background-color: #C4C4C4;
+}
