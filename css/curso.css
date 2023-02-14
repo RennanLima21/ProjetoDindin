@@ -29,6 +29,7 @@
 
 .container-classes {
     background-color: #F7F7F7;
+    padding: 75px 0;
 }
 
 .class-box {
@@ -60,6 +61,6 @@
 .line {
     width: 80%;
     height: 3px;
-    margin: 0 auto;
+    margin: 75px auto;
     background-color: #C4C4C4;
 }
