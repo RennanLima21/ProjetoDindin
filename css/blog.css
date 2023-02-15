@@ -29,15 +29,23 @@
 
 .container-more {
     background-color: #F7F7F7;
-    padding: 110px 0;
+    padding: 30px 0;
     display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 .more-box {
-    
+    width: 462px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 80px
 }
 
-.more-text {}
+.more-text {
+    width: 100%;
+}
 
 .more-text>h1 {
     font-weight: 500;
