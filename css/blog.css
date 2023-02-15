@@ -7,6 +7,7 @@
 .banner-text {
     width: 470px;
     height: 340px;
+    margin-left: 60px;
 }
 
 .banner-text>h1 {
@@ -29,7 +30,7 @@
 
 .container-more {
     background-color: #F7F7F7;
-    padding: 30px 0;
+    padding-top: 100px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -40,7 +41,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 80px
+    margin: 100px 80px;
+    margin-top: 0;
 }
 
 .more-text {
@@ -52,10 +54,136 @@
     font-size: 30px;
     line-height: 34px;
     color: #FF4081;
+    margin: 17px 0;
 }
 
 .more-text>p {
     font-weight: 300;
     font-size: 17px;
     line-height: 20px;
+}
+
+@media screen and (max-width: 1245px) {
+    .more-box {
+        margin: 80px 60px;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 1165px) {
+    .more-box {
+        margin: 70px 50px;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 1125px) {
+    .more-box {
+        width: 510px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 821px) {
+    .banner {
+        flex-direction: column;
+    }
+
+    .banner-text {
+        margin-top: 25px;
+        width: 500px;
+        height: auto;
+    }
+
+    .banner-text>h1 {
+        margin-bottom: 20px;
+    }
+
+    .banner>img {
+        margin: 5%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .more-box{
+        width: 440px;
+    }
+
+    .banner-text>h1 {
+        font-size: 46px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .banner-text {
+        width: 400px;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .banner-text {
+        width: 350px;
+        text-align: center;
+    }
+
+    .banner-text>h1 {
+        font-size: 44px;
+    }
+    
+    .banner-text>p {
+        font-size: 18px;
+    }
+
+    .more-box {
+        width: 400px;
+    }
+
+    .more-box>iframe {
+        height: 215px;
+    }
+
+    .banner>img {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .banner-text, .banner>img {
+        width: 300px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .banner-text>h1 {
+        font-size: 40px;
+    }
+
+    .banner-text>p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .banner-text, .banner>img {
+        width: 270px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .banner-text>h1 {
+        font-size: 38px;
+    }
+
+    .banner-text>p {
+        font-size: 14px;
+    }
+
+    .more-box {
+        width: 230px;
+    }
+
+    .more-box>iframe {
+        height: 145px;
+    }
 }
