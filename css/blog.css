@@ -38,7 +38,7 @@
 .more-box {
     width: 462px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     margin: 80px
 }
