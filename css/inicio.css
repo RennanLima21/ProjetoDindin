@@ -1,0 +1,79 @@
+/* MOBILE FIRST */
+.container-title {
+  display: flex;
+  /* bloco em coluna */
+  flex-direction: column;
+  /* espaço do topo */
+  margin-top: 30px;
+  /* espaço alem da margim e borda */
+  padding: 16px;
+
+  justify-content: center;
+  /* alinha no centro da pagina */
+  align-items: center;
+}
+/* CONFIGURAR IMAGEM */
+.container-title img {
+  /* largura e dimencionamento da imagem */
+  width: 390px;
+}
+/* alinhar texto */
+.title {
+  text-align: center;
+}
+.title h2 {
+  /* tamanho da fonte */
+  font-size: 46px;
+  color: #ff4081;
+}
+
+.title p {
+  /* margim em cima e baixo */
+  margin: 16px 0;
+  font-size: 20px;
+  color: #555555;
+}
+
+.title-button a {
+  color: #ff4081;
+}
+.title-button {
+  border: 2px solid #ff4081;
+  border-radius: 62px;
+  width: 219px;
+  height: 51px;
+  margin-bottom: 25px;
+}
+
+/* definindo o modelo do desktop */
+@media screen and (min-width: 1024px) {
+  .container-title {
+    /* blocos em linha */
+    flex-direction: row;
+    margin-top: 125px;
+    justify-content: space-evenly;
+  }
+
+  .title {
+    text-align: left;
+  }
+
+  .title h2 {
+    width: 488px;
+    font-size: 60px;
+  }
+
+  .title p {
+    font-size: 27px;
+    margin: 19px 0 38px 0;
+  }
+
+  .title-button {
+    border-radius: 62px;
+  }
+
+  /* imagem tamanho */
+  .container-title img{
+    width: 501px;
+  }
+}

@@ -1,16 +1,17 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box; /* deixar o conteudo da pagina contido*/
+  box-sizing: border-box;
+  /* deixar o conteudo da pagina contido*/
   font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  max-width: 100vw;
 }
 
 a {
   text-decoration: none;
-}
-
-body {
-  width: 100%;
 }
 
 button {
@@ -24,19 +25,27 @@ button {
 }
 
 .header {
-  display: flex; /*pai de todos blocos*/
-  justify-content: space-between; /* adiciona espaço entre os elementos*/
-  align-items: center; /*alinhar os itens no centro*/
+  display: flex;
+  /*pai de todos blocos*/
+  justify-content: space-between;
+  /* adiciona espaço entre os elementos*/
+  align-items: center;
+  /*alinhar os itens no centro*/
   background-color: #2e948a;
-  padding-left: 82px; /*espaço das bordas do item*/
-  padding-right: 103px; /*espaço das bordas do item*/
-  height: 117px;/*altura do cabeçalho*/
+  padding-left: 82px;
+  /*espaço das bordas do item*/
+  padding-right: 103px;
+  /*espaço das bordas do item*/
+  height: 117px;
+  /*altura do cabeçalho*/
 }
 
 .links {
   display: flex;
-  width: 309px; /*comprimento do componente*/
-  gap: 40px; /*vheader ão entre os links*/
+  width: 309px;
+  /*comprimento do componente*/
+  gap: 40px;
+  /*vheader ão entre os links*/
 }
 
 .links a {
@@ -44,16 +53,18 @@ button {
   font-weight: 700;
   font-size: 20px;
   line-height: 23px;
-  text-transform: uppercase; /*estilo MIAUSCULO... lowercase  MINUSCULO */
+  text-transform: uppercase;
+  /*estilo MIAUSCULO... lowercase  MINUSCULO */
   color: #fdfdfd;
 }
 
-.container-about {
+/* .container-about {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   gap: 78px;
-}
+} 
+*/
 /* ESSE È DO COMENTARIO DO POVO Q N FIZ AINDA 
 .content-about {
   display: flex;
@@ -85,19 +96,26 @@ button {
 }
 */
 .footer {
-  display: flex; /*pai de todos blocos*/
-  justify-content: space-between; /* adiciona espaço entre os elementos*/
-  align-items: center; /*alinhar os itens no centro*/
+  display: flex;
+  /*pai de todos blocos*/
+  justify-content: space-between;
+  /* adiciona espaço entre os elementos*/
+  align-items: center;
+  /*alinhar os itens no centro*/
   background-color: #2e948a;
-  padding-left: 128px; /*espaço das bordas do item*/
-  padding-right: 137px; /*espaço das bordas do item*/
-  height: 207px; /*altura do cabeçalho*/
+  padding-left: 128px;
+  /*espaço das bordas do item*/
+  padding-right: 137px;
+  /*espaço das bordas do item*/
+  height: 207px;
+  /*altura do cabeçalho*/
 }
 
 .links-footer {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  margin: 0 20px;
 }
 
 .links-footer a {
@@ -118,4 +136,77 @@ button {
   border-radius: 62px;
   width: 289px;
   height: 51px;
+}
+
+@media screen and (max-width: 890px) {
+  .footer {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .links-footer {
+    flex-direction: row;
+    margin: 10px auto;
+  }
+}
+
+@media screen and (max-width: 821px) {
+  .header {
+    flex-direction: column;
+    padding: 10px 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header>img {
+    width: 230px;
+  }
+
+  .footer>img {
+    width: 260px;
+  }
+
+  .links {
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .links a {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .buttons-footer>button {
+    width: 260px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 350px) {
+
+  .header>img {
+    width: 170px;
+  }
+
+  .footer>img {
+    width: 200px;
+  }
+
+  .links {
+    width: 200px;
+    gap: 10px;
+  }
+
+  .links a {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .buttons-footer>button {
+    width: 200px;
+    margin: 0 auto;
+  }
 }
