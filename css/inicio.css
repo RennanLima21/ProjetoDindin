@@ -45,6 +45,119 @@
   margin-bottom: 25px;
 }
 
+/* CONTAINER COURSE */
+
+.container-course {
+  /* alinhando todos */
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background-color: #f6f6f6;
+}
+/* marfin no 1 filho da div */
+.title-course:first-child {
+  margin-bottom: 35px;
+}
+
+/* margin ultimo filho da div */
+.title-course:last-child {
+  margin-top: 35px;
+}
+
+/* padronizando as imagens */
+.title-course img {
+  width: 390px;
+}
+
+.title-course h3 {
+  font-size: 33px;
+  margin-top: 16px;
+  color: #ff4081;
+}
+.title-course p {
+  font-size: 20px;
+  margin: 16px 0px;
+}
+
+.button-title-course {
+  border: 2px solid #ff4081;
+  border-radius: 62px;
+  margin-bottom: 25px;
+  background-color: #ff4081;
+}
+
+.button-title-course a {
+  color: #ffffff;
+}
+
+.button-title-course a button {
+  /* width: 170px; */
+  height: 51px;
+  width: 100%;
+}
+
+
+/* O QUE FALAM SOBRE NOS */
+
+.container-about{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 25px 0px;
+  padding: 16px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.container-about h2{
+  color: #009688;
+  font-size: 27px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-family: 'Nunito', sans-serif;;
+}
+
+.about-imagen{
+  margin-top: 40px;
+}
+
+.text-main{
+  margin: 10px 0;
+  
+  
+}
+
+.text-name{
+  font-weight: bold;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* definindo o modelo do desktop */
 @media screen and (min-width: 1024px) {
   .container-title {
@@ -72,8 +185,70 @@
     border-radius: 62px;
   }
 
+  /* CONTAINER COURSE */
+
   /* imagem tamanho */
-  .container-title img{
+  .container-title img {
     width: 501px;
   }
+
+  .container-course h3 {
+    font-size: 25px;
+    margin-bottom: 23px;
+    margin-top: 45px;
+  }
+
+  .countainer-couser p {
+    font-size: 17px;
+    font-weight: 300px;
+    font-weight: 300;
+    
+  }
+
+  .container-course {
+    flex-direction: row;
+    padding: 109px 187px 119px 128px;
+  }
+
+  /* marfin no 1 filho da div */
+  .title-course:first-child {
+    margin-bottom: 0;
+  }
+
+  /* margin ultimo filho da div */
+  .title-course:last-child {
+    margin-top: 0;
+  }
+
+  .title-course img {
+    height: 270px;
+    width: 288px;
+  }
+
+  .button-title-course a button {
+    /* width: 170px; */
+    height: 51px;
+    width: 216px;
+    font-size: 20px;
+  }
+
+  .button-title-course {
+    display: flex;
+    border-radius: 62px;
+    margin-bottom: 25px;
+    width: 233px;
+    
+  }
+
+
+
+  /* O QUE FALAM SOBRE NOS */
+
+
+
+
+
+
+
+
 }
