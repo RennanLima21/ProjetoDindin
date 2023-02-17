@@ -1,0 +1,154 @@
+/* MOBILE FISTE */
+
+/* titulo inicial */
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 16px 0;
+}
+
+.titulo {
+  display: flex;
+  flex-direction: column;
+  /* margin-top: px; */
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.iniciantes {
+  display: flex;
+  flex-direction: column;
+  /* margin-top: px; */
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo h1 {
+  font-size: 60px;
+  color: #ff4081;
+  margin-bottom: 10px;
+}
+.sub-text {
+  color: #555555;
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+.frases {
+  color: #555555;
+  font-size: 18px;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+.iniciantes {
+}
+
+.iniciantes h2 {
+  color: #ff4081;
+  font-size: 33px;
+  margin: 16px 0px;
+  text-align: center;
+  justify-content: center;
+}
+
+.button-começar a {
+  color: #ffffff;
+}
+.button-começar {
+  display: flex;
+  /* centraliza na vertical */
+  align-items: center;
+  /* centralizar tudo q esta dentro da classe */
+  justify-content: center;
+  /* estender para tela toda */
+  width: 100%;
+  background-color: #2e948a;
+  border: 2px solid #2e948a;
+  border-radius: 62px;
+  height: 51px;
+  margin-bottom: 25px;
+}
+
+/* definindo o modelo do desktop */
+@media screen and (min-width: 1024px) {
+  .titulo {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 81px;
+    margin-left: 82px;
+  }
+
+  .sub-text {
+    margin-top: -10px;
+  }
+
+  .border {
+    margin-top: 68px;
+    margin-bottom: 107px;
+    margin-left: 82px;
+    border: 2px solid #c4c4c4;
+    width: 1244px;
+  }
+
+  .iniciantes {
+    display: flex;
+    flex-direction: row;
+    gap: 53px;
+  }
+
+  .frases {
+    font-size: 18px;
+    max-width: 724px;
+    /* margin-top: 37px;
+    margin-bottom: 53px;
+    margin-left: 53px; */
+  }
+
+  .conteudo-curso {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  .conteudo-curso h2 {
+    font-size: 35px;
+  }
+
+  .iniciantes img {
+    width: 380px;
+    height: 381px;
+  }
+
+  .button-começar a {
+    color: #ffffff;
+  }
+  .button-começar {
+    display: flex;
+    /* centraliza na vertical */
+    align-items: center;
+    /* centralizar tudo q esta dentro da classe */
+    justify-content: center;
+    /* estender para tela toda */
+    width: 233px;
+    height: 51px;
+    background-color: #2e948a;
+    border: 2px solid #2e948a;
+    border-radius: 62px;
+    height: 51px;
+    margin-bottom: 25px;
+  }
+
+  .img-ultima {
+    max-width: 380px;
+    min-height: 498px;
+  }
+
+  .iniciantes:last-child {
+    margin-bottom: 100px;
+  }
+}
