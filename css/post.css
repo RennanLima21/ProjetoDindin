@@ -1,0 +1,218 @@
+/* FIST MOBILE */
+
+.container-post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 25px 0;
+}
+
+.titulo h2 {
+  font-size: 35px;
+  color: #ff4081;
+  font-weight: 500;
+}
+
+.titulo p {
+  font-size: 18px;
+  color: #9d9d9d;
+  font-weight: 300;
+}
+.img-post {
+  padding: 16px;
+}
+.img-post img {
+  width: 100%;
+  padding-bottom: 25px;
+}
+
+.content-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  padding: 16px;
+  text-align: justify;
+}
+
+.fist-text,
+.second-text,
+.last-text {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.second-text h3,
+.last-text h3 {
+  color: #419488;
+  font-size: 20px;
+}
+
+/*  */
+.container-course {
+  /* alinhando todos */
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background-color: #f6f6f6;
+}
+/* marfin no 1 filho da div */
+.title-course:first-child {
+  margin-bottom: 35px;
+}
+
+/* margin ultimo filho da div */
+.title-course:last-child {
+  margin-top: 35px;
+}
+
+/* padronizando as imagens */
+.title-course img {
+  width: 390px;
+}
+
+.title-course h3 {
+  font-size: 33px;
+  margin-top: 16px;
+  color: #ff4081;
+}
+.title-course p {
+  font-size: 20px;
+  margin: 16px 0px;
+}
+
+.button-title-course {
+  border: 2px solid #ff4081;
+  border-radius: 62px;
+  margin-bottom: 25px;
+  background-color: #ff4081;
+}
+
+.button-title-course a {
+  color: #ffffff;
+}
+
+.button-title-course a button {
+  /* width: 170px; */
+  height: 51px;
+  width: 100%;
+}
+
+/* definindo o modelo do desktop */
+@media screen and (min-width: 1024px) {
+  .titulo h2 {
+    font-size: 50px;
+  }
+
+  .img-post {
+    margin-bottom: 30px;
+  }
+
+  .img-post img {
+    max-width: 1032px;
+
+    padding-bottom: 25px;
+  }
+  .content-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 0 204px;
+    text-align: justify;
+    margin-bottom: 150px;
+  }
+
+  .content-text div p {
+    font-weight: 300;
+  }
+
+  .second-text {
+    margin: 30px 0;
+  }
+
+  /* CONHEÇA NOSSOS CURSOS */
+
+  .container-course {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    gap: 101px;
+    padding: 79px 0 100px 0;
+  }
+
+  .wrapper-course {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 140px;
+  }
+
+  .container-course h3 {
+    font-size: 25px;
+    margin-bottom: 23px;
+    margin-top: 45px;
+  }
+
+  .container-course p {
+    font-size: 17px;
+    font-weight: 300;
+    width: 293px;
+    margin: auto;
+    margin-bottom: 26px;
+  }
+
+  .title-course {
+    text-align: center;
+  }
+
+  .container-course h1 {
+    font-size: 50px;
+    color: #ff4081;
+  }
+
+  /* marfin no 1 filho da div */
+  .title-course:first-child {
+    margin-bottom: 0;
+  }
+
+  /* margin ultimo filho da div */
+  .title-course:last-child {
+    margin-top: 0;
+  }
+
+  .title-course img {
+    height: 270px;
+    width: 288px;
+  }
+
+  .button-title-course a button {
+    /* width: 170px; */
+    height: 51px;
+    width: 216px;
+    font-size: 20px;
+  }
+
+  .button-title-course {
+    display: flex;
+    border-radius: 62px;
+    margin-bottom: 25px;
+    width: 233px;
+    margin: auto;
+  }
+}
