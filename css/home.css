@@ -109,6 +109,10 @@ button {
   /*espaço das bordas do item*/
   height: 207px;
   /*altura do cabeçalho*/
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .links-footer {

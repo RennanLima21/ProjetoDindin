@@ -1,82 +1,66 @@
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/home.css" />
-    <link rel="stylesheet" href="./css/contato.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <title>Controle Financeiro</title>
-  </head>
-  <body>
-    <header class="header">
-      <!-- COLOCAR LINK NA IMAGEM PARA VOLTAR PRA HOME -->
-      <a href="index.html">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/home.css" />
+  <link rel="stylesheet" href="./css/contato.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <title>Controle Financeiro</title>
+</head>
+
+<body>
+  <header class="header">
+    <!-- COLOCAR LINK NA IMAGEM PARA VOLTAR PRA HOME -->
+    <a href="index.html">
       <img src="./images/logo-header.png" alt="logo-header" />
-      </a>
-      <nav class="links">
-        <a href="./cursos.html" target="_blank" rel="noopener noreferrer"
-          >Cursos</a
-        >
-        <a href="./blog.html" target="_blank" rel="noopener noreferrer">Blog</a>
-        <a href="./contato.html" target="_blank" rel="noopener noreferrer"
-          >Contato</a
-        >
-        
-      </nav>
-    </header>
+    </a>
+    <nav class="links">
+      <a href="./cursos.html" target="_blank" rel="noopener noreferrer">Cursos</a>
+      <a href="./blog.html" target="_blank" rel="noopener noreferrer">Blog</a>
+      <a href="./contato.html" target="_blank" rel="noopener noreferrer">Contato</a>
 
-    <main>
-        <div class="container">
+    </nav>
+  </header>
 
-            <h2>Contato</h2>
+  <main>
+    <div class="container-contact">
 
-            <form action="" method="post">
-              <input class="input" type="text" value="nome">
-              <input class="input" type="text" value="email">
-              <textarea name="" id="" cols="30" rows="10"></textarea>
+      <div class="contact-box">
+        <h1>Contato</h1>
 
-            </form>
+        <form action="" method="post">
+          <input class="text-input" type="text" placeholder="Nome"></br>
+          <input class="text-input" type="text" placeholder="E-mail"></br>
+          <textarea name="observacoes" class="text-input" cols="30" rows="10" placeholder="Observações"></textarea>
 
-            <button class="button">
-                <a href="">entrar</a>
+        </form>
 
-            </button>
-
-            <img src="/images/ilustra-contato.png" alt="">
-
-        
-
-        </div>
-        
-
-
-
-            
-
-        
-     
-    </main>
-    <footer class="footer">
-      <img src="./images/logo-footer.png" alt="logo-footer" />
-      <div class="links-footer">
-        <a href="./cursos.html" target="_blank" rel="noopener noreferrer"
-          >Cursos</a
-        >
-        <a href="./blog.html" target="_blank" rel="noopener noreferrer">Blog</a>
-        <a href="./contato.html" target="_blank" rel="noopener noreferrer"
-          >Contato</a
-        >
+        <button>entrar</button>
       </div>
-      <div class="buttons-footer">
-        <button type="reset">quero ser prof</button>
-        <button type="reset">aqui tem outro link</button>
-      </div>
-    </footer>
-  </body>
+
+      <img src="./images/ilustra-contato.png" alt="">
+
+
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <img src="./images/logo-footer.png" alt="logo-footer" />
+    <div class="links-footer">
+      <a href="./cursos.html" target="_blank" rel="noopener noreferrer">Cursos</a>
+      <a href="./blog.html" target="_blank" rel="noopener noreferrer">Blog</a>
+      <a href="./contato.html" target="_blank" rel="noopener noreferrer">Contato</a>
+    </div>
+    <div class="buttons-footer">
+      <button type="reset">quero ser prof</button>
+      <button type="reset">aqui tem outro link</button>
+    </div>
+  </footer>
+</body>
+
 </html>
