@@ -100,41 +100,99 @@
   width: 100%;
 }
 
-
 /* O QUE FALAM SOBRE NOS */
 
-.container-about{
+.container-about {
   display: flex;
   flex-direction: column;
   text-align: center;
   margin: 25px 0px;
   padding: 16px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
-.container-about h2{
+.container-about h2 {
   color: #009688;
   font-size: 27px;
   text-transform: uppercase;
   margin-bottom: 5px;
-  font-family: 'Nunito', sans-serif;;
+  font-family: "Nunito", sans-serif;
 }
 
-.about-imagen{
-  margin-top: 40px;
+.content-left {
+  margin-top: 30px;
 }
 
-.text-main{
+.content-right {
+  margin-top: 30px;
+}
+
+.text-main {
   margin: 10px 0;
-  
-  
 }
 
-.text-name{
+.text-name {
   font-weight: bold;
-
-
 }
+
+/*  MAIS CONTEÚDO PARA VOCÊ */
+
+.conteiner-posts {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #e5e5e5;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.conteiner-posts h2 {
+  margin: 25px 0px;
+  color: #009688;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.sub-tittle h3 {
+  color: #009688;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.sub-tittle p {
+  margin-bottom: 25px;
+}
+
+/* Button RODA pé */
+
+.button-mais a {
+  color: #ff4081;
+}
+.button-mais {
+  display: flex;
+  border: 2px solid #ff4081;
+  border-radius: 62px;
+  width: 219px;
+  height: 51px;
+  margin: 25px auto;
+
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -198,14 +256,21 @@
     margin-top: 45px;
   }
 
-  .countainer-couser p {
+  .container-course p {
     font-size: 17px;
-    font-weight: 300px;
     font-weight: 300;
-    
+    width: 293px;
+    margin: auto;
+    margin-bottom: 26px;
+  }
+
+  .title-course {
+    text-align: center;
   }
 
   .container-course {
+    display: flex;
+    justify-content: space-around;
     flex-direction: row;
     padding: 109px 187px 119px 128px;
   }
@@ -237,18 +302,115 @@
     border-radius: 62px;
     margin-bottom: 25px;
     width: 233px;
-    
+    margin: auto;
   }
-
-
 
   /* O QUE FALAM SOBRE NOS */
 
+  .container-about {
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 78px;
+  }
 
+  .content-left {
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+    margin-left: 128px;
+  }
 
+  .content-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
 
+  .text-main {
+    width: 363px;
+    height: 70px;
+    line-height: 24.55px;
+  }
 
+  .text-name {
+    margin-top: 10px;
+    width: 76px;
+    height: 23px;
+  }
 
+  .content-right {
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+  }
 
+  /* .container-about {
+    display: flex;
+    margin: 119px 225px 155px 128px;
+  } */
 
+  /* comentarios da ESQUERDA */
+
+  /* comentarios da DIREITA */
+
+  /* MAIS CONTEUDO PARA VOCE */
+
+  .conteiner-posts {
+    display: flex;
+    justify-items: center;
+  }
+
+  /* .text-h2{
+    display: flex;
+    justify-content: space-between; */
+}
+.conteiner-posts h2 {
+  color: #009688;
+  font-size: 37px;
+  margin-top: 91px;
+  margin-bottom: 73px;
+}
+
+.posts {
+  display: flex;
+  flex-direction: row;
+  /* espaço entre os videos */
+  justify-content: space-around;
+  margin-left: 128px;
+  margin-right: 137px;
+}
+
+.sub-tittle {
+  font-size: 25px;
+  width: 319px;
+  text-align: left;
+}
+
+.sub-tittle h3 {
+  font-size: 25px;
+}
+
+.sub-tittle p {
+  font-size: 23px;
+}
+
+/* BUTTON  */
+
+.button-mais a {
+  color: #ff4081;
+}
+.button-mais {
+  display: flex;
+  border: 2px solid #ff4081;
+  border-radius: 62px;
+  width: 219px;
+  height: 51px;
+  margin: 25px auto;
+  margin-bottom: 53px;
+  margin-top: 101px;
+
+  justify-content: center;
+  align-items: center;
 }
