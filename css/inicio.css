@@ -95,7 +95,6 @@
 }
 
 .button-title-course a button {
-  /* width: 170px; */
   height: 51px;
   width: 100%;
 }
@@ -281,7 +280,6 @@
   }
 
   .button-title-course a button {
-    /* width: 170px; */
     height: 51px;
     width: 216px;
     font-size: 20px;
@@ -296,11 +294,11 @@
   }
 
   /* O QUE FALAM SOBRE NOS */
-  .container-about{
-  padding: 55px;
-  padding-bottom: 155px;
-  padding-top: 119px;
-}
+  .container-about {
+    padding: 55px;
+    padding-bottom: 155px;
+    padding-top: 119px;
+  }
 
   .wrapper-about {
     flex-direction: row;
@@ -315,7 +313,6 @@
   .container-about h2 {
     text-align: left;
     margin-left: 218px;
-
   }
   .text-main {
     width: 363px;
@@ -328,10 +325,6 @@
     justify-items: center;
   }
 
-  /* .text-h2{
-    display: flex;
-    justify-content: space-between; */
-
   .conteiner-posts h2 {
     color: #009688;
     font-size: 37px;
@@ -342,6 +335,7 @@
   .posts {
     display: flex;
     flex-direction: row;
+
     /* espaço entre os videos */
     justify-content: space-around;
     margin-left: 128px;
