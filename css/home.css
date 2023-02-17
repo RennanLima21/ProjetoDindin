@@ -58,6 +58,11 @@ button {
   color: #fdfdfd;
 }
 
+/* main {
+  height: calc(100vh - 324px);
+  overflow: auto;
+} */
+
 /* .container-about {
   display: flex;
   flex-direction: column;
