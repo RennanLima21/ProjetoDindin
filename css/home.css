@@ -58,6 +58,11 @@ button {
   color: #fdfdfd;
 }
 
+/* main {
+  height: calc(100vh - 324px);
+  overflow: auto;
+} */
+
 /* .container-about {
   display: flex;
   flex-direction: column;
@@ -109,10 +114,6 @@ button {
   /*espaço das bordas do item*/
   height: 207px;
   /*altura do cabeçalho*/
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
 }
 
 .links-footer {
