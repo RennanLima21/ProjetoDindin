@@ -103,12 +103,9 @@
 /* O QUE FALAM SOBRE NOS */
 
 .container-about {
-  display: flex;
-  flex-direction: column;
   text-align: center;
   margin: 25px 0px;
   padding: 16px;
-  font-family: "Nunito", sans-serif;
 }
 
 .container-about h2 {
@@ -119,20 +116,44 @@
   font-family: "Nunito", sans-serif;
 }
 
-.content-left {
-  margin-top: 30px;
-}
-
+/* padronizando as mesmas classes css */
+.container-about,
+.wrapper-about,
+.content-left,
 .content-right {
-  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
 }
 
-.text-main {
-  margin: 10px 0;
+/* padronizandos as person com as mesmas classe */
+.person-left-1,
+.person-left-2,
+.person-right-1,
+.person-right-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+}
+
+.text-main,
+.text-name {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  text-align: justify; /* tcentralizar textos  */
+  font-weight: 300; /* espessura da linha  */
 }
 
 .text-name {
-  font-weight: bold;
+  font-weight: 400;
+}
+
+.content-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 /*  MAIS CONTEÚDO PARA VOCÊ */
@@ -151,6 +172,11 @@
   color: #009688;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
 }
 
 .sub-tittle h3 {
@@ -179,42 +205,6 @@
   justify-content: center;
   align-items: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* definindo o modelo do desktop */
 @media screen and (min-width: 1024px) {
@@ -306,54 +296,30 @@
   }
 
   /* O QUE FALAM SOBRE NOS */
+  .container-about{
+  padding: 55px;
+  padding-bottom: 155px;
+  padding-top: 119px;
+}
 
-  .container-about {
-    font-family: "Nunito", sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 78px;
-  }
-
-  .content-left {
-    display: flex;
+  .wrapper-about {
     flex-direction: row;
-    gap: 28px;
-    margin-left: 128px;
+    gap: 97px;
   }
 
-  .content-text {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  .content-left,
+  .content-right {
+    gap: 86px;
   }
 
+  .container-about h2 {
+    text-align: left;
+    margin-left: 218px;
+
+  }
   .text-main {
     width: 363px;
-    height: 70px;
-    line-height: 24.55px;
   }
-
-  .text-name {
-    margin-top: 10px;
-    width: 76px;
-    height: 23px;
-  }
-
-  .content-right {
-    display: flex;
-    flex-direction: row;
-    gap: 28px;
-  }
-
-  /* .container-about {
-    display: flex;
-    margin: 119px 225px 155px 128px;
-  } */
-
-  /* comentarios da ESQUERDA */
-
-  /* comentarios da DIREITA */
 
   /* MAIS CONTEUDO PARA VOCE */
 
@@ -365,52 +331,53 @@
   /* .text-h2{
     display: flex;
     justify-content: space-between; */
-}
-.conteiner-posts h2 {
-  color: #009688;
-  font-size: 37px;
-  margin-top: 91px;
-  margin-bottom: 73px;
-}
 
-.posts {
-  display: flex;
-  flex-direction: row;
-  /* espaço entre os videos */
-  justify-content: space-around;
-  margin-left: 128px;
-  margin-right: 137px;
-}
+  .conteiner-posts h2 {
+    color: #009688;
+    font-size: 37px;
+    margin-top: 91px;
+    margin-bottom: 73px;
+  }
 
-.sub-tittle {
-  font-size: 25px;
-  width: 319px;
-  text-align: left;
-}
+  .posts {
+    display: flex;
+    flex-direction: row;
+    /* espaço entre os videos */
+    justify-content: space-around;
+    margin-left: 128px;
+    margin-right: 137px;
+  }
 
-.sub-tittle h3 {
-  font-size: 25px;
-}
+  .sub-tittle {
+    font-size: 25px;
+    width: 319px;
+    text-align: left;
+  }
 
-.sub-tittle p {
-  font-size: 23px;
-}
+  .sub-tittle h3 {
+    font-size: 25px;
+  }
 
-/* BUTTON  */
+  .sub-tittle p {
+    font-size: 23px;
+  }
 
-.button-mais a {
-  color: #ff4081;
-}
-.button-mais {
-  display: flex;
-  border: 2px solid #ff4081;
-  border-radius: 62px;
-  width: 219px;
-  height: 51px;
-  margin: 25px auto;
-  margin-bottom: 53px;
-  margin-top: 101px;
+  /* BUTTON  */
 
-  justify-content: center;
-  align-items: center;
+  .button-mais a {
+    color: #ff4081;
+  }
+  .button-mais {
+    display: flex;
+    border: 2px solid #ff4081;
+    border-radius: 62px;
+    width: 219px;
+    height: 51px;
+    margin: 25px auto;
+    margin-bottom: 53px;
+    margin-top: 101px;
+
+    justify-content: center;
+    align-items: center;
+  }
 }
